@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/company_nav_graph">
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_motaharzamir"-->
+<!--        android:name="ir.entekhab.motaharzamir.frgments.MotaharZamirFragment"-->
+<!--        android:label="MotaharZamirFragment" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_MotaharZamirFragment_to_activity_main"-->
+<!--            app:destination="@id/activity_main"-->
+<!--            />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_kiasanat"-->
+<!--        android:name="ir.entekhab.motaharzamir.frgments.KiaSanatFragment"-->
+<!--        android:label="KiaSanatFragment"  >-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_radmansanat"-->
+<!--        android:name="ir.entekhab.motaharzamir.frgments.RadmanSanatFragment"-->
+<!--        android:label="RadmanSanatFragment" >-->
+
+<!--    </fragment>-->
+
+</navigation>

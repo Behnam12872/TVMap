@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-137dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <TextView
+        android:id="@+id/guid"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_top_main"
+        android:fontFamily="@font/b_nazanin_bold"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgquestion"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/guid"
+        app:layout_constraintEnd_toEndOf="@+id/guid"
+        app:layout_constraintStart_toStartOf="@+id/guid"
+        app:layout_constraintTop_toTopOf="@+id/guid"
+        app:srcCompat="@drawable/ic_baseline_question_mark_24" />
+
+
+    <TextView
+        android:id="@+id/search"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="30dp"
+
+        android:background="@drawable/bg_top_main"
+        android:fontFamily="@font/b_nazanin_bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgSearch"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        app:layout_constraintBottom_toBottomOf="@+id/search"
+        app:layout_constraintEnd_toEndOf="@+id/search"
+        app:layout_constraintStart_toStartOf="@+id/search"
+        app:layout_constraintTop_toTopOf="@+id/search"
+        app:srcCompat="@drawable/ic_search_white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
